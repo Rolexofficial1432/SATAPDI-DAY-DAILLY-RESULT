@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const el=document.getElementById('today');if(el)el.textContent=new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});});
